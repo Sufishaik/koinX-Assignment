@@ -250,8 +250,8 @@ function Home() {
                 </div>
               </div>
             </div>
-            {/* {
-              term === "long" && gainValue > 0 ? */}
+             {
+              term === "long" && gainValue > 0 ? 
 
                 <div className='inputs1 capital'>
                   <div className='input-child'>
@@ -269,9 +269,9 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                {/* :
+                 :
                 <></>
-            } */}
+            }
 
 
             <div className='final-res'>
